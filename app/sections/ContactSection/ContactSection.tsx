@@ -64,6 +64,7 @@ const ContactSection: React.FC = () => {
         <motion.form
           ref={formRef}
           onSubmit={handleSubmit(onSubmit)}
+          variants={slideIn("left", "spring", 0.2, 1)}
           className="flex flex-col gap-10"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

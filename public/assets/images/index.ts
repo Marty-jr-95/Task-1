@@ -5,6 +5,8 @@ import googleClone from "@/public/assets/images/portfolio/google-clone.png";
 import docsClone from "@/public/assets/images/portfolio/google-docs.png";
 import store from "@/public/assets/images/portfolio/store.png";
 import contactImage from "@/public/assets/images/contact/illustration.svg";
+import emailIcon from "@/public/assets/images/contact/email.svg";
+import whatsappIcon from "@/public/assets/images/contact/whatsapp.svg";
 import bossoLogo from "@/public/assets/images/company/bosso-logo.png";
 import istLogo from "@/public/assets/images/company/ist-logo.png";
 import mvp from "@/public/assets/images/company/mvp.svg";
@@ -26,4 +28,6 @@ export {
   nhpp,
   one4pay,
   zpos,
+  emailIcon,
+  whatsappIcon,
 };

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import { Navbar } from "@/components";
+import { Footer, Navbar } from "@/components";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
@@ -20,6 +20,7 @@ export default function RootLayout({
         <Toaster position="top-center" reverseOrder={false} />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
