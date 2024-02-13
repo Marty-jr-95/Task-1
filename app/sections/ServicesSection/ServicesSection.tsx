@@ -9,7 +9,7 @@ import { Tilt } from "react-tilt";
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="mt-40 flex flex-col gap-10">
+    <section className="mt-20 md:mt-40 flex flex-col gap-10">
       <div className="text-[36px] font-extrabold text-center">
         <p>
           Offered&nbsp;

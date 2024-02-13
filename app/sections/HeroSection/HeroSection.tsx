@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import { slideIn } from "@/utils/motion";
 const HeroSection: React.FC = () => {
   return (
-    <section className="mt-20 grid grid-cols-1 md:grid-cols-2 overflow-hidden">
+    <section className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-2 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex flex-col gap-6"

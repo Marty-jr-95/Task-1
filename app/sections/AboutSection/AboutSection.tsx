@@ -12,7 +12,7 @@ const AboutSection: React.FC = () => {
   return (
     <motion.section
       variants={fadeIn("", "spring", 0.5, 0.7)}
-      className="bg-secondary mt-40 grid grid-cols-1 md:grid-cols-2 px-10 py-16 items-center overflow-hidden"
+      className="bg-secondary mt-20 md:mt-40 grid grid-cols-1 md:grid-cols-2 px-10 py-16 items-center overflow-hidden"
     >
       <div className="flex justify-start mb-10 md:mb-0">
         <Image className="object-contain" src={aboutImage} alt="about-image" />
