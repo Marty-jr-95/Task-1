@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
           <ThemedButton
             href="tel:+260975787694"
             title="Get In Touch"
-            className="w-[287px] mt-8"
+            className="w-[287px] mt-10"
           />
         </div>
       </motion.div>

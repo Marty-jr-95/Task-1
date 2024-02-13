@@ -34,7 +34,7 @@ const PortfolioSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-secondary mt-20 md:mt-40 flex flex-col gap-10 p-8">
+    <section className="bg-secondary mt-20 md:mt-40 flex flex-col gap-10 p-8 pb-16">
       <div className="text-[36px] font-extrabold text-center">
         <p>
           My&nbsp;
